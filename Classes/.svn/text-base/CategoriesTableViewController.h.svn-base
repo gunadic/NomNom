@@ -1,0 +1,24 @@
+//
+//  CategoriesTableViewController.h
+//  Nomv4.0
+//
+//  Created by Administrator on 11/14/10.
+//  Copyright 2010 Trinity University. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+@class CategoriesDetailViewController;
+
+
+@interface CategoriesTableViewController : UITableViewController {
+	IBOutlet UITableView *categoriesTableView;
+	
+	NSMutableArray *categoriesArray;
+	CategoriesDetailViewController *categoriesDetailViewController;
+	
+}
+
+@property (nonatomic, retain) NSMutableArray *categoriesArray;
+@property (nonatomic, retain) CategoriesDetailViewController * categoriesDetailViewController;
+
+@end

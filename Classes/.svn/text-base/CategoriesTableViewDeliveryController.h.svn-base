@@ -1,0 +1,23 @@
+//
+//  CategoriesTableViewDeliveryController.h
+//  Nomv4.0
+//
+//  Created by Administrator on 11/17/10.
+//  Copyright 2010 Trinity University. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "RestaurantDetailViewController.h"
+
+
+@interface CategoriesTableViewDeliveryController : UITableViewController {
+
+	IBOutlet UITableView *restaurantDetailView;
+	
+	NSMutableArray *deliveryArray;
+}
+
+@property (nonatomic, retain) NSMutableArray *deliveryArray;
+@property (nonatomic, retain) RestaurantDetailViewController *restaurantDetailViewController;
+
+@end

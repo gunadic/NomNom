@@ -1,0 +1,16 @@
+//
+//  OnCampusDetailView.h
+//  Nomv4.0
+//
+//  Created by Administrator on 11/7/10.
+//  Copyright 2010 Trinity University. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+
+@interface OnCampusDetailViewController : UIViewController {
+
+}
+
+@end

@@ -1,0 +1,108 @@
+//
+//  RestaurantDetailViewController.m
+//  NomV4.0
+//
+//  Created by App Development on 10/31/10.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//
+
+#import "RestaurantDetailViewController.h"
+
+
+@implementation RestaurantDetailViewController
+
+@synthesize directions;
+@synthesize offers;
+@synthesize callPhone;
+
+
+
+-(IBAction) getDirections: (id) sender{
+	
+	NSLog(@"Button getDirections event Fired.");
+
+	
+	//UIAlertView *temp = [[UIAlertView alloc] initWithTitle:@"Oh Hai!" message:@"This will open the MapsApp... eventually. Since the iPhone simulator doesn't include Maps, you get a nifty popup instead"
+	//											  delegate: nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+	//[temp show];
+	//[temp release];
+						 
+	
+	UIApplication *app = [UIApplication sharedApplication];
+	[app openURL:[NSURL URLWithString: @"http://maps.google.com/maps?q=San+Antonio,+TX"]];
+
+}
+
+-(IBAction) getOffers: (id) sender{
+	NSLog(@"Button getOffers event Fired.");
+	
+	
+	//UIAlertView *temp = [[UIAlertView alloc] initWithTitle:@"Oh Hai!" message:@"This will open the MapsApp... eventually. Since the iPhone simulator doesn't include Maps, you get a nifty popup instead"
+	//											  delegate: nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+	//[temp show];
+	//[temp release];
+	
+	
+	UIApplication *app = [UIApplication sharedApplication];
+	[app openURL:[NSURL URLWithString: @"http://iraa.trinity.edu/iraa/x512.xml"]];
+	
+}
+
+-(IBAction) callNumber: (id) sender{
+	NSLog(@"Button callNumber event Fired.");
+	
+	
+	UIAlertView *temp = [[UIAlertView alloc] initWithTitle:@"Oh Hai!" message:@"This will call the restaurant's phone #. Since the iPhone simulator can't call, you get a nifty popup instead"
+												  delegate: nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+	[temp show];
+	[temp release];
+	
+}
+
+
+
+/*
+ // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+    if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
+        // Custom initialization
+    }
+    return self;
+}
+*/
+
+/*
+// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
+- (void)viewDidLoad {
+    [super viewDidLoad];
+}
+*/
+
+/*
+// Override to allow orientations other than the default portrait orientation.
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
+    // Return YES for supported orientations
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+*/
+
+- (void)didReceiveMemoryWarning {
+    // Releases the view if it doesn't have a superview.
+    [super didReceiveMemoryWarning];
+    
+    // Release any cached data, images, etc that aren't in use.
+}
+
+- (void)viewDidUnload {
+    [super viewDidUnload];
+    // Release any retained subviews of the main view.
+    // e.g. self.myOutlet = nil;
+}
+
+
+- (void)dealloc {
+    [super dealloc];
+}
+
+
+@end

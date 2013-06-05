@@ -1,0 +1,23 @@
+//
+//  OnCampusTableViewController.h
+//  Nomv4.0
+//
+//  Created by Administrator on 11/7/10.
+//  Copyright 2010 Trinity University. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+@class OnCampusDetailViewController;
+
+
+@interface OnCampusTableViewController : UITableViewController <UITableViewDelegate, UITableViewDataSource>{
+	IBOutlet UITableView *onCampusTableView;
+	
+	NSMutableArray *onCampusArray;
+	OnCampusDetailViewController *onCampusDetailViewController;
+}
+
+@property (nonatomic, retain) NSMutableArray *onCampusArray;
+@property (nonatomic, retain) OnCampusDetailViewController *onCampusDetailViewController;
+
+@end

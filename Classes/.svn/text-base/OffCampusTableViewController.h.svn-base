@@ -1,0 +1,39 @@
+//
+//  OffCampusTableViewController.h
+//  NomV4.0
+//
+//  Created by App Development on 10/31/10.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+@class RestaurantDetailViewController;
+@class CategoriesTableViewController;
+@class CategoriesTableViewDeliveryController;
+@class ReallyLongListController;
+
+
+@interface OffCampusTableViewController : UITableViewController <UITableViewDelegate, UITableViewDataSource, UISearchDisplayDelegate, UISearchBarDelegate>{
+	IBOutlet UITableView *offCampusTableView;
+	IBOutlet UITableView *categoriesTableViewDelivery;
+	
+	NSMutableArray *offCampusArray;
+	NSMutableArray *searchResults;
+	NSString *savedSearchTerm;
+	RestaurantDetailViewController *restaurantDetailViewController;
+	CategoriesTableViewController *categoriesTableViewController;
+	CategoriesTableViewDeliveryController *categoriesTableViewDeliveryController;
+	ReallyLongListController *reallyLongListController;
+}
+
+@property (nonatomic, retain) NSMutableArray *offCampusArray;
+@property (nonatomic, retain) RestaurantDetailViewController *restaurantDetailViewController;
+@property (nonatomic, retain) CategoriesTableViewController *categoriesTableViewController;
+@property (nonatomic, retain) CategoriesTableViewDeliveryController *categoriesTableViewDeliveryController;
+@property (nonatomic, retain) ReallyLongListController *reallyLongListController;
+@property (nonatomic, retain) NSMutableArray *searchResults;
+@property (nonatomic, copy) NSString *savedSearchTerm;
+
+- (void)handleSearchForTerm:(NSString *)searchTerm;
+
+@end

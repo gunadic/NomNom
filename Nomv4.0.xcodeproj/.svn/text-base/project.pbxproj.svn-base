@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* NomV4_0AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* NomV4_0AppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		44F348F8127E1B240023BD36 /* OnCampusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F348F6127E1B240023BD36 /* OnCampusViewController.m */; };
+		44F348F9127E1B240023BD36 /* OnCampusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44F348F7127E1B240023BD36 /* OnCampusViewController.xib */; };
+		44F34903127E1B3D0023BD36 /* OnCampusTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44F34902127E1B3D0023BD36 /* OnCampusTableView.xib */; };
+		44F3491E127E1CD50023BD36 /* OffCampusNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3491C127E1CD50023BD36 /* OffCampusNavController.m */; };
+		44F3491F127E1CD50023BD36 /* OffCampusNavController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44F3491D127E1CD50023BD36 /* OffCampusNavController.xib */; };
+		44F3496C127E2BFE0023BD36 /* OffCampusTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F3496B127E2BFE0023BD36 /* OffCampusTableViewController.m */; };
+		44F34981127E2D930023BD36 /* OffCampusTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44F34980127E2D930023BD36 /* OffCampusTableView.xib */; };
+		44F349AD127E33A80023BD36 /* RestaurantDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F349AB127E33A80023BD36 /* RestaurantDetailViewController.m */; };
+		44F349AE127E33A80023BD36 /* RestaurantDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44F349AC127E33A80023BD36 /* RestaurantDetailViewController.xib */; };
+		44F349B2127E33C90023BD36 /* RestaurantDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44F349B1127E33C90023BD36 /* RestaurantDetailView.xib */; };
+		C3558B51127F42B7004B5915 /* SplashPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3558B50127F42B7004B5915 /* SplashPage.xib */; };
+		C3558B54127F4481004B5915 /* OnOffSelectNom.png in Resources */ = {isa = PBXBuildFile; fileRef = C3558B53127F4481004B5915 /* OnOffSelectNom.png */; };
+		C3558B62127F4BD3004B5915 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C3558B61127F4BD3004B5915 /* Default.png */; };
+		C3E4C7A912873DD4007A19A9 /* Chicken.png in Resources */ = {isa = PBXBuildFile; fileRef = C3E4C7A812873DD4007A19A9 /* Chicken.png */; };
+		C3E4C7AB12873DF1007A19A9 /* TigerPaw.png in Resources */ = {isa = PBXBuildFile; fileRef = C3E4C7AA12873DF1007A19A9 /* TigerPaw.png */; };
+		C3E4C7AD12873E08007A19A9 /* House.png in Resources */ = {isa = PBXBuildFile; fileRef = C3E4C7AC12873E08007A19A9 /* House.png */; };
+		C3E4C7BB12874E69007A19A9 /* OnCampusTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E4C7BA12874E69007A19A9 /* OnCampusTableViewController.m */; };
+		C3E4C7D612875501007A19A9 /* OnCampusDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E4C7D412875501007A19A9 /* OnCampusDetailViewController.m */; };
+		C3E4C7D712875501007A19A9 /* OnCampusDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3E4C7D512875501007A19A9 /* OnCampusDetailViewController.xib */; };
+		C3E4C7EA128766C9007A19A9 /* OnCampusView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3E4C7E9128766C9007A19A9 /* OnCampusView.xib */; };
+		C3E4C8081287695B007A19A9 /* OnCampusNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E4C8061287695B007A19A9 /* OnCampusNavController.m */; };
+		C3E4C8091287695B007A19A9 /* OnCampusNavController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3E4C8071287695B007A19A9 /* OnCampusNavController.xib */; };
+		C3E4C857128786AB007A19A9 /* OnCampusDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3E4C856128786AB007A19A9 /* OnCampusDetailView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* NomV4_0AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NomV4_0AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* NomV4_0AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NomV4_0AppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* NomV4.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NomV4.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* NomV4_0_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NomV4_0_Prefix.pch; sourceTree = "<group>"; };
+		44F348F5127E1B240023BD36 /* OnCampusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OnCampusViewController.h; path = ../OnCampusViewController.h; sourceTree = "<group>"; };
+		44F348F6127E1B240023BD36 /* OnCampusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OnCampusViewController.m; path = ../OnCampusViewController.m; sourceTree = "<group>"; };
+		44F348F7127E1B240023BD36 /* OnCampusViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnCampusViewController.xib; sourceTree = "<group>"; };
+		44F34902127E1B3D0023BD36 /* OnCampusTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnCampusTableView.xib; sourceTree = "<group>"; };
+		44F3491B127E1CD50023BD36 /* OffCampusNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OffCampusNavController.h; path = ../OffCampusNavController.h; sourceTree = "<group>"; };
+		44F3491C127E1CD50023BD36 /* OffCampusNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OffCampusNavController.m; path = ../OffCampusNavController.m; sourceTree = "<group>"; };
+		44F3491D127E1CD50023BD36 /* OffCampusNavController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OffCampusNavController.xib; sourceTree = "<group>"; };
+		44F3496A127E2BFE0023BD36 /* OffCampusTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OffCampusTableViewController.h; sourceTree = "<group>"; };
+		44F3496B127E2BFE0023BD36 /* OffCampusTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffCampusTableViewController.m; sourceTree = "<group>"; };
+		44F34980127E2D930023BD36 /* OffCampusTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OffCampusTableView.xib; sourceTree = "<group>"; };
+		44F349AA127E33A80023BD36 /* RestaurantDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantDetailViewController.h; sourceTree = "<group>"; };
+		44F349AB127E33A80023BD36 /* RestaurantDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantDetailViewController.m; sourceTree = "<group>"; };
+		44F349AC127E33A80023BD36 /* RestaurantDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RestaurantDetailViewController.xib; path = Classes/RestaurantDetailViewController.xib; sourceTree = "<group>"; };
+		44F349B1127E33C90023BD36 /* RestaurantDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RestaurantDetailView.xib; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* NomV4_0-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "NomV4_0-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		C3558B50127F42B7004B5915 /* SplashPage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashPage.xib; sourceTree = "<group>"; };
+		C3558B53127F4481004B5915 /* OnOffSelectNom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OnOffSelectNom.png; sourceTree = "<group>"; };
+		C3558B61127F4BD3004B5915 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C3E4C7A812873DD4007A19A9 /* Chicken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chicken.png; sourceTree = "<group>"; };
+		C3E4C7AA12873DF1007A19A9 /* TigerPaw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TigerPaw.png; sourceTree = "<group>"; };
+		C3E4C7AC12873E08007A19A9 /* House.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = House.png; sourceTree = "<group>"; };
+		C3E4C7B912874E69007A19A9 /* OnCampusTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OnCampusTableViewController.h; path = ../OnCampusTableViewController.h; sourceTree = "<group>"; };
+		C3E4C7BA12874E69007A19A9 /* OnCampusTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OnCampusTableViewController.m; path = ../OnCampusTableViewController.m; sourceTree = "<group>"; };
+		C3E4C7D312875501007A19A9 /* OnCampusDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnCampusDetailViewController.h; sourceTree = "<group>"; };
+		C3E4C7D412875501007A19A9 /* OnCampusDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnCampusDetailViewController.m; sourceTree = "<group>"; };
+		C3E4C7D512875501007A19A9 /* OnCampusDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = OnCampusDetailViewController.xib; path = Classes/OnCampusDetailViewController.xib; sourceTree = "<group>"; };
+		C3E4C7E9128766C9007A19A9 /* OnCampusView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnCampusView.xib; sourceTree = "<group>"; };
+		C3E4C8051287695B007A19A9 /* OnCampusNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnCampusNavController.h; sourceTree = "<group>"; };
+		C3E4C8061287695B007A19A9 /* OnCampusNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnCampusNavController.m; sourceTree = "<group>"; };
+		C3E4C8071287695B007A19A9 /* OnCampusNavController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = OnCampusNavController.xib; path = Classes/OnCampusNavController.xib; sourceTree = "<group>"; };
+		C3E4C856128786AB007A19A9 /* OnCampusDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnCampusDetailView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C350782C1281E9E3002BFA79 /* Headers */,
+				44F349AB127E33A80023BD36 /* RestaurantDetailViewController.m */,
+				C3E4C7D412875501007A19A9 /* OnCampusDetailViewController.m */,
+				44F3491C127E1CD50023BD36 /* OffCampusNavController.m */,
+				C3E4C8061287695B007A19A9 /* OnCampusNavController.m */,
+				44F348F6127E1B240023BD36 /* OnCampusViewController.m */,
+				1D3623250D0F684500981E51 /* NomV4_0AppDelegate.m */,
+				44F3496B127E2BFE0023BD36 /* OffCampusTableViewController.m */,
+				C3E4C7BA12874E69007A19A9 /* OnCampusTableViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* NomV4.0.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				C3E4C7E9128766C9007A19A9 /* OnCampusView.xib */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* NomV4_0_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C3E4C7AC12873E08007A19A9 /* House.png */,
+				C3E4C7AA12873DF1007A19A9 /* TigerPaw.png */,
+				C3E4C7A812873DD4007A19A9 /* Chicken.png */,
+				C3558B61127F4BD3004B5915 /* Default.png */,
+				C3E4C7D512875501007A19A9 /* OnCampusDetailViewController.xib */,
+				44F349AC127E33A80023BD36 /* RestaurantDetailViewController.xib */,
+				C3558B53127F4481004B5915 /* OnOffSelectNom.png */,
+				44F3491D127E1CD50023BD36 /* OffCampusNavController.xib */,
+				C3E4C8071287695B007A19A9 /* OnCampusNavController.xib */,
+				44F348F7127E1B240023BD36 /* OnCampusViewController.xib */,
+				44F34902127E1B3D0023BD36 /* OnCampusTableView.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* NomV4_0-Info.plist */,
+				44F34980127E2D930023BD36 /* OffCampusTableView.xib */,
+				44F349B1127E33C90023BD36 /* RestaurantDetailView.xib */,
+				C3558B50127F42B7004B5915 /* SplashPage.xib */,
+				C3E4C856128786AB007A19A9 /* OnCampusDetailView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C350782C1281E9E3002BFA79 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* NomV4_0AppDelegate.h */,
+				44F349AA127E33A80023BD36 /* RestaurantDetailViewController.h */,
+				C3E4C7D312875501007A19A9 /* OnCampusDetailViewController.h */,
+				44F3496A127E2BFE0023BD36 /* OffCampusTableViewController.h */,
+				C3E4C7B912874E69007A19A9 /* OnCampusTableViewController.h */,
+				44F348F5127E1B240023BD36 /* OnCampusViewController.h */,
+				44F3491B127E1CD50023BD36 /* OffCampusNavController.h */,
+				C3E4C8051287695B007A19A9 /* OnCampusNavController.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* NomV4.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "NomV4.0" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NomV4.0;
+			productName = NomV4.0;
+			productReference = 1D6058910D05DD3D006BFB54 /* NomV4.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Nomv4.0" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* NomV4.0 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				44F348F9127E1B240023BD36 /* OnCampusViewController.xib in Resources */,
+				44F34903127E1B3D0023BD36 /* OnCampusTableView.xib in Resources */,
+				44F3491F127E1CD50023BD36 /* OffCampusNavController.xib in Resources */,
+				44F34981127E2D930023BD36 /* OffCampusTableView.xib in Resources */,
+				44F349AE127E33A80023BD36 /* RestaurantDetailViewController.xib in Resources */,
+				44F349B2127E33C90023BD36 /* RestaurantDetailView.xib in Resources */,
+				C3558B51127F42B7004B5915 /* SplashPage.xib in Resources */,
+				C3558B54127F4481004B5915 /* OnOffSelectNom.png in Resources */,
+				C3558B62127F4BD3004B5915 /* Default.png in Resources */,
+				C3E4C7A912873DD4007A19A9 /* Chicken.png in Resources */,
+				C3E4C7AB12873DF1007A19A9 /* TigerPaw.png in Resources */,
+				C3E4C7AD12873E08007A19A9 /* House.png in Resources */,
+				C3E4C7D712875501007A19A9 /* OnCampusDetailViewController.xib in Resources */,
+				C3E4C7EA128766C9007A19A9 /* OnCampusView.xib in Resources */,
+				C3E4C8091287695B007A19A9 /* OnCampusNavController.xib in Resources */,
+				C3E4C857128786AB007A19A9 /* OnCampusDetailView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* NomV4_0AppDelegate.m in Sources */,
+				44F348F8127E1B240023BD36 /* OnCampusViewController.m in Sources */,
+				44F3491E127E1CD50023BD36 /* OffCampusNavController.m in Sources */,
+				44F3496C127E2BFE0023BD36 /* OffCampusTableViewController.m in Sources */,
+				44F349AD127E33A80023BD36 /* RestaurantDetailViewController.m in Sources */,
+				C3E4C7BB12874E69007A19A9 /* OnCampusTableViewController.m in Sources */,
+				C3E4C7D612875501007A19A9 /* OnCampusDetailViewController.m in Sources */,
+				C3E4C8081287695B007A19A9 /* OnCampusNavController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NomV4_0_Prefix.pch;
+				INFOPLIST_FILE = "NomV4_0-Info.plist";
+				PRODUCT_NAME = NomV4.0;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = NomV4_0_Prefix.pch;
+				INFOPLIST_FILE = "NomV4_0-Info.plist";
+				PRODUCT_NAME = NomV4.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "NomV4.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Nomv4.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

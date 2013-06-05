@@ -1,0 +1,24 @@
+//
+//  CategoriesDetailViewController.h
+//  Nomv4.0
+//
+//  Created by Administrator on 11/14/10.
+//  Copyright 2010 Trinity University. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+@class CategoriesDetailViewController;
+@class RestaurantDetailViewController;
+
+
+@interface CategoriesDetailViewController : UITableViewController<UITableViewDelegate, UITableViewDataSource> {
+	IBOutlet UITableView *categoriesDetailView;
+	
+	NSMutableArray *restArray;
+	RestaurantDetailViewController *restaurantDetailViewController;
+}
+
+@property (nonatomic, retain) NSMutableArray *restArray;
+@property (nonatomic, retain) RestaurantDetailViewController *restaurantDetailViewController;
+
+@end

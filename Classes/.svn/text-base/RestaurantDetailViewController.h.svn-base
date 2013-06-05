@@ -1,0 +1,28 @@
+//
+//  RestaurantDetailViewController.h
+//  NomV4.0
+//
+//  Created by App Development on 10/31/10.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+
+@interface RestaurantDetailViewController : UIViewController {
+	
+	IBOutlet UIButton *directions;
+	IBOutlet UIButton *offers;
+	IBOutlet UIButton *callPhone;
+	
+}
+
+@property (nonatomic, retain) UIButton *directions;
+@property (nonatomic, retain) UIButton *offers;
+@property (nonatomic, retain) UIButton *callPhone;
+
+-(IBAction) getDirections: (id) sender;
+-(IBAction) getOffers: (id) sender;
+-(IBAction) callNumber: (id) sender;
+
+@end

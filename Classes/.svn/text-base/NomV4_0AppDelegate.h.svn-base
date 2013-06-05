@@ -1,0 +1,34 @@
+//
+//  NomV4_0AppDelegate.h
+//  NomV4.0
+//
+//  Created by App Development on 10/31/10.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+@class OffCampusNavController;
+//@class OnCampusTableViewController;
+@class OnCampusNavController;
+@class CategoriesNavController;
+
+@interface NomV4_0AppDelegate : NSObject <UIApplicationDelegate> {
+    UIWindow *window;
+	IBOutlet UITabBarController *rootController;
+	IBOutlet OffCampusNavController *offCampusNavController;
+	IBOutlet OnCampusNavController *onCampusNavController;
+	IBOutlet CategoriesNavController *categoriesNavController;
+	//IBOutlet OnCampusTableViewController *onCampusTableViewController; 
+	IBOutlet UIView *splashPage;
+}
+
+@property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) IBOutlet UITabBarController *rootController;
+@property (nonatomic, retain) IBOutlet OffCampusNavController *offCampusNavController;
+@property (nonatomic, retain) IBOutlet OnCampusNavController *onCampusNavController;
+@property (nonatomic, retain) IBOutlet CategoriesNavController *categoriesNavController;
+@property (nonatomic, retain) IBOutlet UIView *splashPage;
+//@property (nonatomic, retain) IBOutlet OnCampusTableViewController *onCampusTableViewController;
+
+@end
+
